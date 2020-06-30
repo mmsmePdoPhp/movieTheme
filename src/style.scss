@@ -1,0 +1,8 @@
+@import 'scss/general';
+@import 'bootstrap/scss/bootstrap.scss';
+
+$paragraph-blue: blue;
+
+p{
+    color: $paragraph-blue;
+}
