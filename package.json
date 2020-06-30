@@ -5,8 +5,13 @@
     "private": true,
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack --watch"
+        "dev": "webpack",
+        "development": "webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "webpack --build",
+        "watch-poll": "npm run watch --watch-poll",
+        "hot": "webpack --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "webpack --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "keywords": [],
     "author": "",
@@ -15,6 +20,8 @@
         "css-loader": "^3.6.0",
         "file-loader": "^6.0.0",
         "node-sass": "^4.14.1",
+        "popper.js": "^1.12",
+
         "sass-loader": "^8.0.2",
         "style-loader": "^1.2.1",
         "webpack": "^4.43.0",

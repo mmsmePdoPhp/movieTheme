@@ -6,3 +6,19 @@ $paragraph-blue: blue;
 p{
     color: $paragraph-blue;
 }
+
+// style for search input
+#search{
+    word-spacing: -3px;
+    box-shadow: none;
+    border: none;
+    font-weight: bold;
+    direction: rtl;
+}
+
+// styles for show most visited and populare movies
+.min-height-300{
+    height: 130px;
+    
+}
+

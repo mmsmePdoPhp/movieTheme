@@ -4,6 +4,7 @@ module.exports = {
     entry: {
       app: './src/index.js',
       print: './src/print.js',
+      main: './src/style.scss'
     },
     output: {
         filename: '[name].bundle.js',

@@ -1,58 +1,161 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <title>Getting Started</title>
     <script src="https://unpkg.com/lodash@4.16.6"></script>
-  </head>
-  <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-navy dir-rtl">
-        <a class="navbar-brand">صفحه اصلی</a>
-        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="my-nav" class="collapse navbar-collapse dir-rtl ">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">فیلم <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">سریال</a>
-                </li>
+</head>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">تریلر </a>
-              </li>
+<body>
+    <!-- main container start-->
+    <div class="container-fluid">
+        <!-- main navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navy dir-rtl row">
+            <a class="navbar-brand">صفحه اصلی</a>
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse dir-rtl ">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">فیلم <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">سریال</a>
+                    </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">تبلیغات</a>
-            </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تریلر </a>
+                    </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#">تماس با ما</a>
-          </li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تبلیغات</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav-item card bg-white">
+                <div class="input-group  dir-ltr p-2">
+                    <div class="">
+                        <button class="btn btn-danger" id="my-addon">جستجو</button>
+                    </div>
+                    <input class="form-control text-center" type="text" id="search" name="search" placeholder="کلمه ی مورد نظر خود را تایپ کنید ..." aria-label="جستجو " aria-describedby="جستجوی فیلم">
+                </div>
+                <!-- <input type="search" name="" id="input" class="form-control" value="" required="required" title=""> -->
+
+            </div>
+            
+        </nav>
+        <!-- main navbar end -->
+
+        
+        <!-- most new and populare movies start -->
+        <div class=" bg-info row">
+            <div class="col-9  justify-content-between bg-warning">
+                <div class="row">
+                    <div class="col bg-primary">
+                        <img class="img-fluid h-100" src="./../src/images/women.jpg" alt="">
+                    </div>
+                    <div class="col bg-danger">
+                        <img class="img-fluid h-100" src="./../src/images/women.jpg" alt="">
+                    </div>
+                    <div class="col bg-dark">
+                        <img class="img-fluid h-100" src="./../src/images/women.jpg" alt="">
+                    </div>
+                    <div class="col bg-light">
+                        <img class="img-fluid h-100" src="./../src/images/women.jpg" alt="">
+                    </div>
+                    <div class="col bg-primary">
+                        <img class="img-fluid h-100" src="./../src/images/women.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 bg-danger ">
+                <img class="img-fluid  h-100" src="./../src/images/download.jfif" alt="">
+            </div>
         </div>
-    </nav>
-    
+        <!-- most new and populare movies end -->
+
+        <!-- divider start  -->
+        <hr class="m-1">
+        <!-- divider end -->
 
 
-    <div class="row">
-      <div class="border border-danger col-sm-6 col-md-3 col-lg-3">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ad porro itaque.</p>
-      </div>
-      <div class="border border-danger col-sm-6 col-md-3 col-lg-3">
-        <p>Aperiam magni ad incidunt minima animi. Natus, quo? Dolores, hic! Officiis, reprehenderit.</p>
-      </div>
-      <div class="border border-danger col-sm-6 col-md-3 col-lg-3">
-        <p>Adipisci iure voluptatibus praesentium repellendus aspernatur pariatur saepe sed consequuntur rem voluptatem.</p>
-      </div>
-      <div class="border border-danger col-sm-6 col-md-3 col-lg-3">
-        <p>Voluptatem ipsam id dignissimos quisquam nam modi maxime laboriosam deleniti incidunt unde.</p>
-      </div>
-    </div>
+        <!-- single and new take film -->
+        <div class="card-group">
+            <div class="row dir-rtl text-right bg-info">
+                <img class="col-2 h-100" src="./../src/images/selena.webp" width="100px" height="100px" alt="">
+                <div class="col-10 p-2">
+                    <h5 class="card-title btn btn-danger">Lorem ipsum dolor sit amet.</h5>
+                    <p class="card-text">Content Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi magni qui quo! Tempora eligendi consequuntur quis reprehenderit optio placeat deleniti odio?</p>
+                    <div class="d-flex">
+                        <button class="btn btn-warning offset-1 col-2  mr-auto ">مشاهده و دانلود</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- single and new take film -->
+
+
+        <!-- divider start  -->
+        <hr class="m-1">
+        <!-- divider end -->
+
+
+        <!-- sign up and show advertising start  -->
+        <div class="row">
+            <!-- show sign up and login user start -->
+            <div class="col-4">
+                <div class="card-group card-body bg-secondary">
+                    <div class="row text-right ">
+                        <img class="col-5 h-100 img-fluid img-thumbnail" src="./../src/images/selena.webp" width="100px" height="100px" alt="">
+                        <div class="col-7 p-2 dir-rtl">
+                            <button class="btn w-100 btn-outline-light d-block my-2"><span class="ml-2">&ShortLeftArrow;</span>ثبت نام  </button>
+                            <button class="btn w-100 btn-outline-light d-block my-2"><span class="ml-2">&ShortLeftArrow;</span> ورود </button>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <!-- show sign up and login user end -->
+
+            <!-- show advertising start-->
+            <div class="col-8 p-0 ">
+                <div class="h-100 d-flex flex-column justify-content-center">
+                    <div class="col bg-info d-flex flex-column justify-content-center h-100">
+                        <div class="bg-dark text-center">
+                            <blockquote class="blockquote p-0 m-0">
+                                <p class="mb-0 text-light">محل تبلیغات شما</p>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <div class="col bg-primary d-flex  flex-column justify-content-center h-100">
+                        <div class="bg-dark text-center">
+                            <blockquote class="blockquote p-0 m-0 bg-danger">
+                                <p class="mb-0 text-light">محل تبلیغات شما</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    
+                </div>    
+            </div>
+            <!-- show advertising end -->
+        </div>
+        <!-- sign up and show advertising end  -->
+
+        
+    </div><!-- main container end-->
+
+
 
     <!-- merged all script or main.js file bundled with tin\s -->
     <script src="./app.bundle.js"></script>
-  </body>
+    <script src="./main.bundle.js"></script>
+</body>
+
 </html>

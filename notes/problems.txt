@@ -1,0 +1,2 @@
+#problems developting fron end
+1. have problem with min-height for row and col class

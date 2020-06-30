@@ -1,0 +1,6 @@
+# limitations for most populare movies or most viewd
+1. images must have sepicefic height and width
+desc: i have to change size and with by backend for have best view
+
+
+
