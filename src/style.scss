@@ -28,3 +28,49 @@ p{
 .l-50{
     left:50px
 }
+
+.l-1{
+    font-size:12px;
+}
+
+.wsn-3{
+    word-spacing: -3px;
+}
+.clear-both{
+    clear: both;
+}
+
+.opacity-0{
+    
+opacity: 0;
+}
+.opacity-1{
+    
+opacity: 0.2;
+}
+.opacity-2{
+    
+opacity: 0.4;
+}
+.opacity-3{
+    
+opacity: 0.6;
+}
+.opacity-4{
+    
+opacity: 0.8;
+}
+.opacity-5{
+    
+opacity: 1;
+}
+
+.bg-dark-category *{
+    background-color: black !important;
+    color:white;
+}
+
+
+.bg-dark-category a:hover{
+    color:orange;
+}
