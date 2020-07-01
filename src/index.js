@@ -36,4 +36,16 @@ import 'bootstrap/scss/bootstrap.scss';
 //     return element;
 // }
 
-document.body.appendChild(component());
+// document.body.appendChild(component());
+
+
+function showAlert(){
+    let names = Array('mohammad','shno','shida','soma');
+    names =names.map((value)=> {
+        return value+=' Bawan';
+        
+    })
+    console.log(names)
+}
+
+showAlert();
