@@ -11,8 +11,10 @@ import jquery from 'jquery/src/jquery.js';
 import './style.css';
 import './style.scss';
 
-import Selena from './images/women.jpg';
-import 'bootstrap/scss/bootstrap.scss';
+// import Selena from './images/women.jpg';
+import 'bootstrap';
+
+
 
 // function component() {
 //     const btn = document.createElement('button');
