@@ -1,4 +1,5 @@
 @import 'scss/general';
+@import 'scss/mediaquery';
 @import "~bootstrap/scss/bootstrap";
 
 
@@ -72,6 +73,12 @@ opacity: 1;
 }
 
 
+
 .bg-dark-category a:hover{
     color:orange;
+}
+
+
+.bg-white-c{
+    background-color:white !important;
 }

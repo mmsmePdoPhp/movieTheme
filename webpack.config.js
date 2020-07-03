@@ -56,4 +56,11 @@ module.exports = {
 
         ],
     },
+    watchOptions: {
+        aggregateTimeout: 300,
+        poll: 1000, // Check for changes every second
+        ignored: /node_modules/,
+
+
+    }
 };

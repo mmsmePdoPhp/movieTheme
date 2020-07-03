@@ -70,7 +70,7 @@
 
         <!-- most new and populare movies start -->
         <div class=" bg-info row">
-            <div class="col-9  justify-content-between bg-warning">
+            <div class="col-7  justify-content-between bg-warning">
                 <div class="row d-none d-xl-flex">
                     <div class="col bg-primary">
                         <img class="img-fluid h-100" src="./../src/images/women.jpg" alt="">
@@ -119,7 +119,8 @@
                 <!-- carosel header end -->
 
             </div>
-            <div class="col-3 bg-danger ">
+
+            <div class="col-5 bg-danger">
                 <img class="img-fluid  h-100" src="./../src/images/download.jfif" alt="">
             </div>
         </div>
@@ -131,18 +132,22 @@
 
 
         <!-- single and new take film -->
-        <div class="card-group">
-            <div class="row dir-rtl text-right bg-info">
-                <img class="col-2 h-100" src="./../src/images/selena.webp" width="100px" height="100px" alt="">
-                <div class="col-10 p-2">
+        <div class="row card bg-secondary">
+            <div class="col-12">
+
+            <div class="row dir-rtl text-right">
+                <img class="col-12 col-md-5 img-fluid col-lg-3 h-100 small-img-sm" src="./../src/images/selena.webp" width="100px" height="100px" alt="">
+                <div class="col-12 col-md-7 col-lg-9 p-2">
                     <h5 class="card-title btn btn-danger">Lorem ipsum dolor sit amet.</h5>
                     <p class="card-text">Content Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi magni
                         qui quo! Tempora eligendi consequuntur quis reprehenderit optio placeat deleniti odio?</p>
                     <div class="d-flex">
-                        <button class="btn btn-warning offset-1 col-2  mr-auto ">مشاهده و دانلود</button>
+                        <button class="btn btn-warning offset-1 col-6 col-md-4 col-lg-2  mr-auto ">مشاهده و دانلود</button>
                     </div>
                 </div>
             </div>
+        </div>
+
         </div>
         <!-- single and new take film -->
 
@@ -155,8 +160,8 @@
         <!-- sign up and show advertising start  -->
         <div class="row">
             <!-- show sign up and login user start -->
-            <div class="col-4">
-                <div class="card-group card-body bg-secondary">
+            <div class="col-12 col-md-4">
+                <div class="card-group row card-body bg-secondary">
                     <div class="row text-right ">
                         <img class="col-5 h-100 img-fluid img-thumbnail" src="./../src/images/selena.webp" width="100px"
                             height="100px" alt="">
@@ -172,21 +177,17 @@
             <!-- show sign up and login user end -->
 
             <!-- show advertising start-->
-            <div class="col-8 p-0 ">
-                <div class="h-100 d-flex flex-column justify-content-center">
+            <div class="col-12 col-md-8 p-0 ">
+                <div class=" h-100 d-flex flex-column justify-content-center">
                     <div class="col bg-info d-flex flex-column justify-content-center h-100">
-                        <div class="bg-dark text-center">
-                            <blockquote class="blockquote p-0 m-0">
-                                <p class="mb-0 text-light">محل تبلیغات شما</p>
-                            </blockquote>
+                        <div class="text-center">
+                            <p class="mb-0 text-light">محل تبلیغات شما</p>
                         </div>
                     </div>
 
                     <div class="col bg-primary d-flex  flex-column justify-content-center h-100">
-                        <div class="bg-dark text-center">
-                            <blockquote class="blockquote p-0 m-0 bg-danger">
-                                <p class="mb-0 text-light">محل تبلیغات شما</p>
-                            </blockquote>
+                        <div class="text-center">
+                            <p class="mb-0 text-light">محل تبلیغات شما</p>
                         </div>
                     </div>
 
@@ -208,7 +209,7 @@
             <div class="row">
 
                 <!-- show sidebar start -->
-                <div class="col-4">
+                <div class="col-12 col-md-4">
 
                     <!-- show advertising for moviest that translated start -->
                     <div class="card bg-secondary">
@@ -300,7 +301,6 @@
                                         <div class="position-absolute b-0 mb-0  w-100 bg-secondary opacity-4 ">
                                             <!-- <p class="position-absolute b-0 mb-0  l-1 wsn-3 bg-info">مشاهده انلاین تریلر</p> -->
                                             <p class="text-center l-1 wsn-3  m-0 text-white">مشاهده انلاین تریلر</p>
-
                                         </div>
                                     </div>
                                 </div>
@@ -376,103 +376,109 @@
 
 
                     <!-- show movies category start -->
-                    <div class="card bg-dark-category">
+                    <div class="row card bg-dark-category"><!---->
                         <div class="card-header text-center text-white">
                             دسته بندی فیلم ها
+                            <button class="btn bg-white-c py-0 text-info float-right movie-toggler">
+                                
+                                <span class="movie-plus text-info bg-white-c">+</span>
+                                <span class="movie-negative text-info bg-white-c">-</span>
+                            </button>
+
                         </div>
-                        <div class="card-body pt-0">
+                        <div class="card-body p-0 pt-0 movie-toggle">
                             <div class="list-group  dir-rtl">
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action">
+                                <div class="row m-0">
+                                    <div class="col p-0 text-center">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             اکشن
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             درام
                                         </a>
                                     </div>
                                 </div>
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col p-0 text-center">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             تاریخی
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col p-0 text-center">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             جنایی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             ترسناک
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             جنگی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             خانوادگی
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             معمایی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             زندگی نامه
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0 ">
                                             ورزشی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             علمی تخیلی
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             فانتزی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             ماجراجویی
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             وسترن
                                         </a>
                                     </div>
@@ -489,103 +495,110 @@
 
 
                     <!-- show serials category start -->
-                    <div class="card bg-dark-category">
+                    
+                    <div class="row card bg-dark-category"><!---->
                         <div class="card-header text-center text-white">
                             دسته بندی فیلم ها
+                            <button class="btn bg-white-c py-0 text-info float-right serial-toggler">
+                                
+                                <span class="serial-plus text-info bg-white-c">+</span>
+                                <span class="serial-negative text-info bg-white-c">-</span>
+                            </button>
+
                         </div>
-                        <div class="card-body pt-0">
+                        <div class="card-body p-0 pt-0 serial-toggle">
                             <div class="list-group  dir-rtl">
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action">
+                                <div class="row m-0">
+                                    <div class="col p-0 text-center">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             اکشن
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             درام
                                         </a>
                                     </div>
                                 </div>
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col p-0 text-center">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             تاریخی
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col p-0 text-center">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             جنایی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             ترسناک
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             جنگی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             خانوادگی
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             معمایی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             زندگی نامه
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0 ">
                                             ورزشی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             علمی تخیلی
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             فانتزی
                                         </a>
                                     </div>
                                 </div>
 
 
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                <div class="row m-0">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             ماجراجویی
                                         </a>
                                     </div>
-                                    <div class="col text-center">
-                                        <a href="#" class="list-group-item list-group-item-action ">
+                                    <div class="col text-center p-0">
+                                        <a href="#" class="list-group-item list-group-item-action px-0">
                                             وسترن
                                         </a>
                                     </div>
@@ -596,14 +609,13 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- show serials category end -->
 
                 </div>
                 <!-- show sidebar end -->
 
                 <!-- show movie start-->
-                <div class="col-8">
+                <div class="col-12 col-md-8">
 
                     <!-- first movie start -->
                     <div class="row">
@@ -905,26 +917,11 @@
                         <div class="col  card-body">
                             <p class="text-right text-white">صفحات وبسایت</p>
 
-                            <!-- <ul class="pagination  my-auto dir-rtl   justify-content-center">
-                                <li><a href="#" class="mx-1 px-3 nav-link bg-dark h4 text-light ">1</a></li>
-                                <li><a href="#" class="mx-1 px-3 nav-link bg-dark h4 text-light">2</a></li>
-                                <li><a href="#" class="mx-1 px-3 nav-link bg-dark h4 text-light">3</a></li>
-                                <li><a href="#" class="mx-1 px-3 nav-link bg-dark h4 text-light">4</a></li>
-                                <li><a href="#" class="mx-1 px-3 nav-link bg-dark h4 text-light">5</a></li>
-                                <li><a href="#" class="mx-1 px-3 nav-link bg-dark h4 text-light">بعدی</a></li>
-                            </ul> -->
-
-                            
-                            <ul class="pagination">
-                                <li><a href="#">&laquo;</a></li>
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
-                                <li><a href="#">&raquo;</a></li>
-                            </ul>
-                            
+                            <!-- pagination shrink start  -->
+                            <nav aria-label="...">
+                                
+                              </nav>
+                            <!-- pagination shrink end  -->
 
                         </div>
                     </div>
