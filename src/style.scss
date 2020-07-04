@@ -5,7 +5,7 @@
 // enable responsive bootstrap font size
 $enable-responsive-font-sizes:true;
 
-$paragraph-blue: blue;
+$paragraph-blue: white;
 
 p{
     color: $paragraph-blue;
@@ -83,4 +83,31 @@ opacity: 1;
 
 .bg-white-c{
     background-color:white !important;
+}
+
+// set max height to most viewed movies
+.mh-200{
+    max-height: 200px;
+}
+.mw-400{
+    max-width: 450px;
+}
+
+.min-h-180{
+    min-height: 180px;
+    max-height: 180px;
+}
+
+
+.min-h-90{
+    min-height: 90px;
+    max-height: 90px;
+}
+
+.bg-lightdark{
+    background-color:rgba(255, 255, 255, 0.637)  !important;
+}
+
+.bg-warning{
+    background-color: #D56001 !important;
 }
