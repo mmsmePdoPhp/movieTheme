@@ -2,6 +2,8 @@
 @import 'scss/mediaquery';
 @import "~bootstrap/scss/bootstrap";
 
+// enable responsive bootstrap font size
+$enable-responsive-font-sizes:true;
 
 $paragraph-blue: blue;
 
