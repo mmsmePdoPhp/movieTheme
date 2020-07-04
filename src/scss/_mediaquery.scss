@@ -47,36 +47,38 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 // set hegiht images for small devices start 
 .min-h-200{
-    min-height: 400px;
+    min-height: 200px;
 }
 
 .min-h-250{
-    min-height: 400px;
+    min-height: 250px;
 }
 
 .min-h-300{
-    min-height: 400px;
+    min-height: 300px;
 }
 
 .min-h-350{
-    min-height: 400px;
+    min-height: 350px;
 }
 .min-h-400{
     min-height: 400px;
 }
 
-
+.max-h-200{
+    max-height: 200px;
+}
 
 .max-h-250{
-    max-height: 400px;
+    max-height: 250px;
 }
 
 .max-h-300{
-    max-height: 400px;
+    max-height: 300px;
 }
 
 .max-h-350{
-    max-height: 400px;
+    max-height: 350px;
 }
 .max-h-400{
     max-height: 400px;
@@ -85,49 +87,18 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
-    
+   
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-    
-// set hegiht images for small devices start 
-.min-h-sm-200{
-    min-height: 400px;
-}
-
-.min-h-sm-250{
-    min-height: 400px;
-}
-
-.min-h-sm-300{
-    min-height: 400px;
-}
-
-.min-h-sm-350{
-    min-height: 400px;
-}
-.min-h-sm-400{
-    min-height: 400px;
-}
-
-
-
-.max-h-sm-250{
-    max-height: 400px;
-}
-
-.max-h-sm-300{
-    max-height: 400px;
-}
-
-.max-h-sm-350{
-    max-height: 400px;
-}
-.max-h-sm-400{
-    max-height: 400px;
-}
-// set hegiht images for small devices end
+    .min-h-200{
+        min-height: 250px;
+    }
+    .max-h-200{
+        max-height: 250px;
+    }
+   
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -148,12 +119,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
     // section toggle movies category list end
 
-
-    // section toggle serials category list start
-    // .serial-plus{
-    //     display: none;
-    // }
-    // section toggle serials category list end
+    // set hegiht images for small devices start 
+    .min-h-200{
+        min-height: 300px;
+    }
+    .max-h-200{
+        max-height: 300px;
+    }
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
